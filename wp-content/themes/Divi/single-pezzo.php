@@ -41,11 +41,8 @@ if( $edizione ):
 	?>
 	<ul><li>Edizione: <a href="<?php echo $edizione->guid ?>"><?php echo $edizione->post_title; ?></a></li></ul>
 	<?
-endif
-?>		
-<br />
-<?//progetto?>
-<?php
+endif ?>
+<?php //progetto
  
 /*
 *  Loop through post objects (assuming this is a multi-select field) ( don't setup postdata )
@@ -62,9 +59,7 @@ if( $post_objects ): ?>
         </li>
     <?php endforeach; ?>
     </ul>
-<?php endif;
- 
-?>
+<?php endif; ?>
 <?//progetto?>
 <?php
  
@@ -105,8 +100,6 @@ if( $post_objects ): ?>
 
 <?//esecuzione?>
 
-
-					
 					<?php
 					    $this_post = get_post($postID);
 						$post = $this_post;

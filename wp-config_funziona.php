@@ -10,8 +10,8 @@
  * MySQL dal proprio fornitore di hosting.
  *
  * Questo file viene utilizzato, durante l'installazione, dallo script
- * di creazione di wp-config.php. Non ï¿½ necessario utilizzarlo solo via
- * web,ï¿½ anche possibile copiare questo file in "wp-config.php" e
+ * di creazione di wp-config.php. Non è necessario utilizzarlo solo via
+ * web,è anche possibile copiare questo file in "wp-config.php" e
  * rimepire i valori corretti.
  *
  * @package WordPress
@@ -29,7 +29,7 @@ define('DB_USER', 'stefanop80680');
 define('DB_PASSWORD', 'stef56320');
 
 /** Hostname MySQL  */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'sql.stefanopierini.com');
 
 /** Charset del Database da utilizare nella creazione delle tabelle. */
 define('DB_CHARSET', 'utf8');
@@ -43,7 +43,7 @@ define('DB_COLLATE', '');
  *
  * Modificarle con frasi univoche differenti!
  * E' possibile generare tali chiavi utilizzando {@link https://api.wordpress.org/secret-key/1.1/salt/ servizio di chiavi-segrete di WordPress.org}
- * E' possibile cambiare queste chiavi in qualsiasi momento, per invalidare tuttii cookie esistenti. Ciï¿½ forzerï¿½ tutti gli utenti ad effettuare nuovamente il login.
+ * E' possibile cambiare queste chiavi in qualsiasi momento, per invalidare tuttii cookie esistenti. Ciò forzerà tutti gli utenti ad effettuare nuovamente il login.
  *
  * @since 2.6.0
  */
@@ -75,12 +75,12 @@ $table_prefix  = 'wp_';
  * selezionata. Ad esempio, installare de_DE.mo in to wp-content/languages ed
  * impostare WPLANG a 'de_DE' per abilitare il supporto alla lingua tedesca.
  *
- * Tale valore ï¿½ giï¿½ impostato per la lingua italiana
+ * Tale valore è già impostato per la lingua italiana
  */
 define('WPLANG', 'it_IT');
 
 /**
- * Per gli sviluppatori: modalitï¿½ di debug di WordPress.
+ * Per gli sviluppatori: modalità di debug di WordPress.
  *
  * Modificare questa voce a TRUE per abilitare la visualizzazione degli avvisi
  * durante lo sviluppo.
